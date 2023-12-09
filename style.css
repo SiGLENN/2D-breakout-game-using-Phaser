@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#gameCanvas {
+  border: 2px solid #3936e8;
+  display: block;
+  margin: 20px auto;
+}
+
+#gameControls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#startBtn, #fullscreenBtn {
+  background-color: #0095DD;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-right: 150px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#startBtn:hover, #fullscreenBtn:hover {
+  background-color: #0077b6;
+}
+
+#gameInfo {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #0095DD;
+  margin: 10px;
+}
+
+#gameOver {
+  text-align: center;
+  font-size: 24px;
+  color: #dc3545;
+}
+
+#gameOver a {
+  color: #dc3545;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#gameOver a:hover {
+  text-decoration: underline;
+}
